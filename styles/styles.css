@@ -10,6 +10,7 @@ body{
 /* nav related style */
 nav{
     display: flex;
+    justify-content: space-between;
 }
 .nav-title{
     color: black;
@@ -18,6 +19,8 @@ nav{
 }
 nav > ul{
     display: flex;
+    
+    align-items: center;
 }
 
 nav li{
@@ -31,4 +34,9 @@ nav a{
 .btn-primary{
  border-radius: 5px;
  background-color: #fd6e0a;
+ border: 0px;
+ color: white;
+ font-weight: 700;
+ font-size: 20px;
+ padding: 15px 35px;
 }
