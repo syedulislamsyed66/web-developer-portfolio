@@ -40,3 +40,17 @@ nav a{
  font-size: 20px;
  padding: 15px 35px;
 }
+/* header related style */
+.header{
+    background-color: #fff8f3;
+}
+nav{
+    margin: 0px 200px;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+}
+.banner .profile-pic{
+    width: 500px;
+}
