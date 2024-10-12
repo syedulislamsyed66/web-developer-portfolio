@@ -7,6 +7,22 @@ body{
 .text-primary{
     color: #fd6e0a;
 }
+
+.section-tile{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description{
+      color: #757575;;
+      text-align: center;
+      font-family: Open sans;
+      font-size: 18px;
+
+}
+
 /* nav related style */
 nav{
     display: flex;
@@ -43,14 +59,43 @@ nav a{
 /* header related style */
 .header{
     background-color: #fff8f3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 nav{
     margin: 0px 200px;
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .banner .profile-pic{
     width: 500px;
+    margin-bottom: 0px;
+}
+.banner-greeting{
+    font-size: 45px;
+    margin-bottom: 0;
+    color: #474747;
+}
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin border-bottom: 20px;
+}
+.banner-contain{
+    max-width: 500px;
+}
+/* main section styles */
+
+/* about section styles */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #fff8f3;
+    margin: 130px 0;
 }
