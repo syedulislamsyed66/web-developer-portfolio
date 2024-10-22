@@ -87,10 +87,13 @@ nav{
     margin-top: 5px;
     margin border-bottom: 20px;
 }
-.banner-contain{
+.banner-content{
     max-width: 500px;
 }
 /* main section styles */
+main section{
+    margin-top: 130px;
+}
 main{
     max-width: 1140px;
     margin: 0 auto;
