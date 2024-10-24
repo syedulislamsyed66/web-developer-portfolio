@@ -139,3 +139,7 @@ main{
     font-weight: 700;
 
 }
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
